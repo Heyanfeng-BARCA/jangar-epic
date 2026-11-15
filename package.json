@@ -1,0 +1,13 @@
+{
+  "name": "jangar-epic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "江格尔史诗 · 宝木巴的梦境守护",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

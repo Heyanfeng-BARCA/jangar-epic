@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111719">
+  <!-- room-server -->
+  <title>江格尔史诗 · 宝木巴的梦境守护</title>
+  <meta name="description" content="以江格尔史诗为灵感的四幕合作推理网页桌游。">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="engine.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="wrap topbar">
+      <button class="brand" data-page="home"><span class="sigil" aria-hidden="true"><i></i></span><span>江格尔史诗<small>THE EPIC OF JANGAR</small></span></button>
+      <nav aria-label="主导航">
+        <button data-page="home">首页</button>
+        <button data-page="gallery">史诗图鉴</button>
+        <button data-page="honors">成就</button>
+      </nav>
+      <button class="outline compact" data-open="rules"><span aria-hidden="true">◇</span> 玩法说明</button>
+    </div>
+  </header>
+  <main id="app"></main>
+  <footer class="footer wrap"><span>江格尔史诗 · 宝木巴的梦境守护</span><span>创闯怆团队</span></footer>
+  <dialog id="modal" aria-labelledby="dialog-title"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>请启用 JavaScript 进入游戏。</noscript>
+</body>
+</html>
